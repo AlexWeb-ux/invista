@@ -1,6 +1,6 @@
 <?php
-  $to = "team.seo.moon@gmail.com";	
-  $from = "team.seo.moon@gmail.com";
+  $to = "mail@gmail.com";	
+  $from = "mail@gmail.com";
   $subject = "Письмо с сайта";
   $message = "Имя пользователя: ".$_POST['name']." \n Телефон пользователя: ".$_POST['phone']." \n Email: ".$_POST['email'];
   $boundary = md5(date('r', time()));
