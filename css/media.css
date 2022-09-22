@@ -139,6 +139,18 @@
 		 margin-bottom: 0;
 	}
 }
+@media only screen and (max-width : 667px) {
+	.btn a:nth-child(1) {
+    margin-right: 10px;
+  }
+	h1 {
+    font-size: 32px;
+  }
+	.footer {
+    -ms-grid-columns: 345px 25px 1fr;
+    grid-template-columns: 345px 1fr;
+  }
+}
 @media only screen and (max-width : 440px) {
 	.wraper {
     margin-top: 30px;
@@ -239,7 +251,7 @@
     padding: 0px 0px 20px;
   }
 }
-@media only screen and (max-width : 360px) {
+@media only screen and (max-width : 390px) {
 	.wraper {
     margin-top: 30px;
   }
