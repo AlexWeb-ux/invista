@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			var query = $(this).parents('.form__faq').serialize();
 			$.ajax({
 				type: "POST",
-				url: "/mail.php",					
+				url: "./mail.php",					
 				data:query,
 				success: function(data) {					
 					$('.form__faq').trigger('reset');
