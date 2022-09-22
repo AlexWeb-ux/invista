@@ -278,7 +278,7 @@ ul li, ol li {
 	content: "";
 	width: 20px;
 	height: 20px;
-	background-image: url(/images/marker.svg);
+	background-image: url(../images/marker.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
