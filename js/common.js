@@ -27,12 +27,10 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 		},
 	});
-
 	$('.accordion__header').click(function () {
 		$(this).addClass('active').next().slideToggle();
 		$('.accordion__header').not(this).removeClass('active').next().slideUp();
 	});
-
 	$('.send__form').click(function(){
 		var em = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 		var ph = /^(.*?\d.*?){7,}$/;
@@ -71,11 +69,6 @@ document.addEventListener('DOMContentLoaded', function() {
 			})
 		}
 	});
-
-	$('.send__form').click(function () {
-		$('.success').fadeIn();
-		$('.dark__block').fadeIn();		
-	})
 	$('.success__close').click(function () {
 		$('.success').fadeOut();
 		$('.dark__block').fadeOut();		
@@ -83,6 +76,5 @@ document.addEventListener('DOMContentLoaded', function() {
 	$('.dark__block').click(function () {
 		$('.success').fadeOut();
 		$(this).fadeOut();		
-	})
-	
+	})	
 });
